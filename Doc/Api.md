@@ -16,7 +16,6 @@
 
 ## Create Mail
 
-
 ### Create Mail Request
 
 ```js
@@ -101,7 +100,7 @@ GET /mails/{{id}}
 
 ## Update Mail
 
-### Update Mail Request
+### Update Meal Request
 
 ```js
 PUT /mails/{{id}}

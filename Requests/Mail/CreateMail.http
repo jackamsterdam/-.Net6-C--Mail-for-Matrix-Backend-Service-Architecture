@@ -1,0 +1,22 @@
+
+POST http://localhost:5021/mails
+##headers 
+Content-Type: application/json
+##Now our request boddy  which we have in Api.md
+
+{
+    "name": "Jack Amsterdam",
+    "description": "This mail is about healthy food",
+    "message": "You should be eating a lot of oatmeal because it is high in Soluble Fiber.As well you should be eating lots of bananas for good qulity Potassium. Also Strawberries are good for. End your dat with a home made salad. Get on that healthy diet right away!",
+    "startDateTime": "2023-06-04T08:00:00",
+    "endDateTime": "2023-06-04T11:00:00",
+    "meal": [
+        "Oatmeal",
+        "Bananas",
+        "Strawberries",
+        "Salad"
+    ]
+}
+
+###
+
