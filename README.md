@@ -1,5 +1,14 @@
 # .Net6-CSharp-Mail-for-Matrix-Backend-Service-Architecture
-Creating a backend REST API using C# dontnet6 called Jack's Mail for Matrix
+
+
+Creating a backend REST API using C# dontnet6 called Jack's Mail for Matrix. 
+Includes CRUD for getting creating updating and deleting mail.
+
+To run the program: 
+Clone the repository,
+dotnet build,
+dotnet run --project Mail.
+Test with correct host.
 
 # Mail API By Jack For Matrix
 
