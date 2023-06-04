@@ -1,27 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hin5y5ioBy3QZZn2Gvtf5eG1TmRLMLDzmH6ZH+zLzh9r1jx76OPkSBCTrDfaH0KIXySSVxDN6VMLgkCmtcCoSA==",
-  "success": false,
+  "dgSpecHash": "XLWQXlWgF/c5++NxPMzaPrqH6Y01HdxuqH0hgrSbQ8tXP8sgFBHDoVgI5x8n0P1o204xAjPBLWDp4d+fP6Tg2Q==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail\\Mail.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.AspNetCore.OpenApi. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.AspNetCore.OpenApi",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "Swashbuckle.AspNetCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

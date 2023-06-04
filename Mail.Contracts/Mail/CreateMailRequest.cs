@@ -1,4 +1,4 @@
-namespace Mail.Contracts.Mail;
+namespace JackMailForMatrix.Contracts.Mail;
 
 //this comes from client - goes into request.body
 public record CreateMailRequest(

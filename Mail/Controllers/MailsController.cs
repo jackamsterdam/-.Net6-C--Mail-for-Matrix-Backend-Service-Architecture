@@ -1,9 +1,9 @@
-using Mail.Contracts.Mail;
+using JackMailForMatrix.Contracts.Mail;
 using Microsoft.AspNetCore.Mvc;
-using Mail.Services.Mails;
-using Mail.Models;
+using JackMailForMatrix.Services.Mails;
+using JackMailForMatrix.Models;
 
-namespace Mail.Controllers;
+namespace JackMailForMatrix.Controllers;
 
 
 [ApiController]
@@ -12,7 +12,7 @@ namespace Mail.Controllers;
 public class MailsController : ControllerBase
 {
 
-    private readonly IMailsService _mailService;
+    private readonly IMailService _mailService;
 
     //Dependency injection of the service
     public MailsController(IMailService mailService)

@@ -1,4 +1,4 @@
-namespace Mail.Contracts.Mail;
+namespace JackMailForMatrix.Contracts.Mail;
 
 //Using this for both GET and POST because they are identical
 //We will be using this as the response to the client

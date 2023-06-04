@@ -1,4 +1,4 @@
-namespace Mail.Contracts.Mail;
+namespace JackMailForMatrix.Contracts.Mail;
 
 // Upsert - Update or Create if not exist
 //this comes from client - goes into request.body

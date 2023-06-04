@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Mail/1.0.0": {
+        "dependencies": {
+          "Mail.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Mail.dll": {}
+        }
+      },
+      "Mail.Contracts/1.0.0": {
+        "runtime": {
+          "Mail.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mail.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

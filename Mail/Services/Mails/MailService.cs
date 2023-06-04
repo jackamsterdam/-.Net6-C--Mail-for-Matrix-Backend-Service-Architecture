@@ -1,6 +1,6 @@
-using Mail.Models;
+using JackMailForMatrix.Models;
 
-namespace Mail.Services.Mails;
+namespace JackMailForMatrix.Services.Mails;
 
 //We will Dependency Inject this into constructor in Controller
 public class MailService : IMailService

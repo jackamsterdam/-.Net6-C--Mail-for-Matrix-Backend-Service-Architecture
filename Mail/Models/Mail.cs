@@ -1,4 +1,4 @@
-namespace Mail.Models;
+namespace JackMailForMatrix.Models;
 //creating a Model class for our Mail
 public class Mail 
 {

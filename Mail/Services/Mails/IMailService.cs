@@ -1,5 +1,5 @@
-using Mail.Models;
-namespace Mail.Services.Mails;
+using JackMailForMatrix.Models;
+namespace JackMailForMatrix.Services.Mails;
 
 //the business logic happens here
 

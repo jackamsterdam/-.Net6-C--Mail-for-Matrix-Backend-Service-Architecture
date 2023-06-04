@@ -1,4 +1,4 @@
-using Mail.Services.Mails;
+using JackMailForMatrix.Services.Mails;
 
 // for dependecy injection and configuration: use the builder 
 var builder = WebApplication.CreateBuilder(args);
