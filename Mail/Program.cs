@@ -1,25 +1,24 @@
+using Mail.Services.Mails;
+
+// for dependecy injection and configuration: use the builder 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    // Add services to the container.
+    builder.Services.AddControllers();
+
+    //tells framework that everytime instantiates an object to act like Singleton
+    builder.Services.AddScoped<IMailService, MailService>();
 }
 
-app.UseHttpsRedirection();
 
-app.UseAuthorization();
 
-app.MapControllers();
+var app = builder.Build();
+{
+    app.UseHttpsRedirection();
 
-app.Run();
+    app.MapControllers();
+
+    app.Run();
+}
+
