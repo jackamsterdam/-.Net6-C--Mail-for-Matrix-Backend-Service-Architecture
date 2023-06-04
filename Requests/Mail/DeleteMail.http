@@ -1,3 +1,3 @@
-@id=a29dd844-f361-4d5f-bb75-4d4a5cbfd5c9
+@id=346e9be9-1d46-48cf-a853-2b620938f29e
 
-DELETE http://localhost:5021/mails/{{id}}
+DELETE http://localhost:5205/mails/{{id}}
