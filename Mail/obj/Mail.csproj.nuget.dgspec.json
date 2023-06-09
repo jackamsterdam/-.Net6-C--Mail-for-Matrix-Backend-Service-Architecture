@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\mail\\Mail.csproj": {}
+    "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail\\Mail.csproj": {}
   },
   "projects": {
     "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail.Contracts\\Mail.Contracts.csproj": {
@@ -21,7 +21,8 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -58,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\mail\\Mail.csproj": {
+    "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail\\Mail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\mail\\Mail.csproj",
+        "projectUniqueName": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail\\Mail.csproj",
         "projectName": "Mail",
-        "projectPath": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\mail\\Mail.csproj",
+        "projectPath": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail\\Mail.csproj",
         "packagesPath": "C:\\Users\\Jacka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\mail\\obj\\",
+        "outputPath": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jacka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,7 +77,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {}
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -97,6 +99,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

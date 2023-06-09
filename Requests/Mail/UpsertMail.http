@@ -1,4 +1,4 @@
-@id=346e9be9-1d46-48cf-a853-2b620938f29e
+@id=6579b001-84cc-4206-8337-d653b46a5b6c
 
 PUT http://localhost:5205/mails/{{id}}
 Content-Type: application/json

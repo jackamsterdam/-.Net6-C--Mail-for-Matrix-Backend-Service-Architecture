@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MqqxQfH84YKclOvdppPTip7xgd03pq2OSKbUD2IyO9oxfy3l4JoiJSGmyz86xsKSF5Y96ZgnflJVIhFqD4mTrQ==",
+  "dgSpecHash": "G2tjSUyv9L+dzqeR/IcwMZpnnKfYd8VPaWzR5No8ctXr6+/TYwQgjpQTTiMK1eQTcI1DVztip7iFS1wuDhbyng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\mail\\Mail.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Jacka\\Desktop\\After John Bryce\\06-June 2023 c sharp\\jackmailformatrix\\Mail\\Mail.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacka\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
